@@ -11,6 +11,7 @@
 
 **Datos del equipo**
 - *Sitema Operativo:* Windows 10 Home 64 bits (10,0 compilación 19044)
+- *Procesador:* Inter(R) Celeron(R) CPU N3350 @ 1.10GHz 1.10 GHz
 - *Modelo:* X541NA
 - *Memoria:* 4096MB RAM 
 - *Archivo de paginación:* 5364MB usados, 2170MB disponible 
