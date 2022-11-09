@@ -1,5 +1,10 @@
 
+# include "color.sh" 
+int main () {
+printf( RED      " This text is RED!     \n" ); 
 
+return 0;
+}
 # Tarea de Clase 1
 
 ## Joyce Andrade 
