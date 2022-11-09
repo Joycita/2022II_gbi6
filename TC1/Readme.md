@@ -1,6 +1,7 @@
 
 # Tarea de Clase 1
-<FONT COLOR="blue">Texto AZUL </FONT>
+<B><FONT COLOR="red">Texto ROJO </FONT>
+<br>
 
 ## Joyce Andrade 
 En esta actividad se va hacer una evaluación de lo aprendido en Unix.
