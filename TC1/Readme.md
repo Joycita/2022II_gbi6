@@ -1,7 +1,6 @@
 
 # Tarea de Clase 1
-<B><FONT COLOR="red">Texto ROJO </FONT>
-<br>
+# <FONT SIZE=6 COLOR="red">E</FONT><FONT SIZE=4>sto es una </FONT> 
 
 ## Joyce Andrade 
 En esta actividad se va hacer una evaluación de lo aprendido en Unix.
