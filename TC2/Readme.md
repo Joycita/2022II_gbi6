@@ -1,6 +1,6 @@
 # Tarea de Clase 2 
 
-## You can do everything <3 !  <a href="hhttps://www.crehana.com/blog/estilo-vida/que-es-kawaii/"> <img alt="YOU CAN DO IT" src="https://crehana-blog.imgix.net/media/filer_public/e8/72/e872c921-cc1c-4c9e-8dcf-0c480f7554c9/ilustracion_kawaii_animales_beckycas.jpg?auto=format&q=50" width="100" height="100">
+## You can do everything <3 !  <a href="hhttps://www.crehana.com/blog/estilo-vida/que-es-kawaii/"> <img alt="YOU CAN DO IT" src="https://crehana-blog.imgix.net/media/filer_public/e8/72/e872c921-cc1c-4c9e-8dcf-0c480f7554c9/ilustracion_kawaii_animales_beckycas.jpg?auto=format&q=50" width="120" height="120">
 
 **Datos Personales**
 - *Nombre:* Joyce Andrade
