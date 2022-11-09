@@ -1,6 +1,8 @@
 # Tarea de Clase 2 
 
-## You can do everything <3 !  <a href="https://tenor.com/view/encourage-raising-hands-cheer-appreciate-advocate-gif-1677932923826915821"> <img alt="YOU CAN DO IT" width="40" height="40">
+## You can do everything <3 !  <a href="https://tenor.com/search/you-can-do-it-gifs"> <img alt="YOU CAN DO IT" src="https://tenor.com/view/you-can-do-it-i-believe-in-you-fox-cut-gif-25400848" width="40" height="40">
+  
+  <a href="https://ecuador.travel/en/"> <img alt="ECUADOR" src="https://icons.iconarchive.com/icons/wikipedia/flags/128/EC-Ecuador-Flag-icon.png" width="40" height="40"> 
 
 **Datos Personales**
 - *Nombre:* Joyce Andrade
