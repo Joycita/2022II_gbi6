@@ -1,6 +1,6 @@
 ## Exercise 1.10.1 ##
 ## 1. Change directory to CSB/unix/sandbox##
-cd ../../../../unix/sandbox/
+cd ../../../unix/sandbox/
 ## 2. What is the size of file Marra2014_data.fasta ##
 ls -lh ../data/Marra2014_data.fasta
 ## 3. Create a copy of Marra2014_data.fasta in the sandbox and name it my_file.fasta##
