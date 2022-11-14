@@ -1,5 +1,11 @@
+ 1. Change directory to CSB/unix/sandbox
+ 2. What is the size of file Marra2014_data.fasta
 -rw-r--r-- 1 Joyce Catheryn 197121 553K Jan 28  2019 ../data/Marra2014_data.fasta
+3. Create a copy of Marra2014_data.fasta in the sandbox and name it my_file.fasta
+4. How many contigs are classified as isogroup00036? 
 16
+5. Replace the original two-spaces delimiter with a comma 
+6. How many unique isogroups are in the file?
 >contig00001,length=527,numreads=2,gene=isogroup00001,status=it_thresh
 >contig00002,length=551,numreads=8,gene=isogroup00001,status=it_thresh
 >contig00003,length=541,numreads=2,gene=isogroup00001,status=it_thresh
@@ -9,6 +15,7 @@ gene=isogroup00001
 gene=isogroup00001
 gene=isogroup00001
 43
+7. Which contig has the highest number of reads (numreads)? How many reads does it have? 
 >contig00001,numreads=2
 >contig00002,numreads=8
 >contig00003,numreads=2
