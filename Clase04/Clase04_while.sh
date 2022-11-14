@@ -2,7 +2,7 @@
 
 ##1. How many times were the levels of individuals 3 and 27 recorded?##
 echo "1. How many times were the levels of individuals 3 and 27 recorded?" 
-cd ../../../../../../
+cd ../../../../../
 grep -r "Guesquiere2011" CSB-master/unix
 cd CSB-master/unix/data
 ls
