@@ -2,6 +2,7 @@
 ## 1. Change directory to CSB/unix/sandbox##
 echo " 1. Change directory to CSB/unix/sandbox"
 cd ../../../../../unix/sandbox/
+ls
 
 ## 2. What is the size of file Marra2014_data.fasta ##
 echo " 2. What is the size of file Marra2014_data.fasta"
@@ -20,6 +21,7 @@ grep -c isogroup00036 my_file.fasta
 echo "5. Replace the original "two-spaces" delimiter with a comma "
 cat my_file.fasta | tr -s "  " "," > my_file.tmp
 mv my_file.tmp my_file.fasta
+head -n 4 my_file.fasta
 
 ## 6. How many unique isogroups are in the file?
 echo "6. How many unique isogroups are in the file?"
