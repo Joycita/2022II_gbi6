@@ -2,7 +2,9 @@
 
 ##1. How many times were the levels of individuals 3 and 27 recorded?##
 echo "1. How many times were the levels of individuals 3 and 27 recorded?" 
-cd ../../../../../../CSB-master/unix/data
+cd ../../../../../../
+grep -r "Guesquiere2011" CSB-master/unix
+cd CSB-master/unix/data
 ls
 
 head -n 3 Guesquiere2011_data.csv
@@ -27,9 +29,9 @@ bash ../solutions/count_baboons.sh Gesquiere2011_data.csv 27
 echo "3. [Advanced] Write a script that returns the number of times each individual was sampled."
 echo "times each individual was sampled"
 tail -n +2 Gesquiere2011_data.csv | cut -f 1 | sort -n | uniq
-IDS= `tail -n +2 Gesquiere2011_data.csv | cut -f 1 | sort -n | uniq`
+myIDS= `tail -n +2 Gesquiere2011_data.csv | cut -f 1 | sort -n | uniq`
 echo "BUCLE"
-for id in $IDS
+for id in $myIDS
 do
 	mycounts=`bash ../solutions/count_baboons.sh Gesquiere2011_data.csv $id`
 	echo "ID:" $id "counts:" $mycounts
