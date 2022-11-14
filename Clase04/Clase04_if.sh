@@ -11,6 +11,7 @@ ls -lh ../data/Marra2014_data.fasta
 echo "3. Create a copy of Marra2014_data.fasta in the sandbox and name it my_file.fasta"
 cp ../data/Marra2014_data.fasta my_file.fasta
 ls
+
 ## 4. How many contigs are classified as isogroup00036? ##
 echo "4. How many contigs are classified as isogroup00036? "
 grep -c isogroup00036 my_file.fasta
