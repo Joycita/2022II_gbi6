@@ -3,7 +3,6 @@
 ##1. How many times were the levels of individuals 3 and 27 recorded?##
 echo "1. How many times were the levels of individuals 3 and 27 recorded?" 
 cd ../../../../../
-grep -r "Guesquiere2011" unix/
 cd unix/data/
 ls
 head -n 3 Gesquiere2011_data.csv
