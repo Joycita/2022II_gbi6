@@ -2,7 +2,7 @@
 
 ##1. How many times were the levels of individuals 3 and 27 recorded?##
 echo "1. How many times were the levels of individuals 3 and 27 recorded?" 
-cd ../../../../../
+cd ../../../
 cd unix/data
 ls
 head -n Guesquiere2011_data.csv
