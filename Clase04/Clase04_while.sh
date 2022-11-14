@@ -28,8 +28,8 @@ bash ../solutions/count_baboons.sh Gesquiere2011_data.csv 27
 echo "3. [Advanced] Write a script that returns the number of times each individual was sampled."
 echo "times each individual was sampled"
 tail -n +2 Gesquiere2011_data.csv | cut -f 1 | sort -n | uniq
-myIDS= `tail -n +2 Gesquiere2011_data.csv | cut -f 1 | sort -n | uniq`
 echo "BUCLE"
+myIDS=`tail -n +2 Gesquiere2011_data.csv | cut -f 1 | sort -n | uniq`
 for id in $myIDS
 do
 	mycounts=`bash ../solutions/count_baboons.sh Gesquiere2011_data.csv $id`
