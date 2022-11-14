@@ -4,9 +4,13 @@ echo " 1. Write a script that takes one of these files and determines the number
 cd ../../../../../unix/data/Saavedra2013
 ls -x
 
-bash ../scriptconcatenado.sh n1.txt
+cat n1.txt | wc -l
+cat n59.txt | wc -l
+
 echo -e "\n"
-bash ../scriptconcatenado.sh n59.txt
+
+head -n 1 n1.txt | tr -d ' ' | tr -d '\n' | wc -c
+head -n 1 n1.txt | tr -d ' ' | tr -d '\n' | wc -c
 
 ##2.[Advanced]Write a script that prints the numbers of rows and columns for each network:##
 echo "[Advanced]Write a script that prints the numbers of rows and columns for each network:"
