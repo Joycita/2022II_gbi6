@@ -1,6 +1,5 @@
-## Ejercicio 1.10.1 ##
+## Exercise 1.10.1 ##
 ## 1.Change directory to CSB/unix/sandbox##
-echo "1.Change directory to CSB/unix/sandbox"
 cd ../../../../unix/sandbox/
 ## 2. What is the size of file Marra2014_data.fasta ##
 echo "2.What is the size of file Marra2014_data.fasta"
