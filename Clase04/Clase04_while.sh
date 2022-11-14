@@ -5,7 +5,7 @@ echo "1. How many times were the levels of individuals 3 and 27 recorded?"
 cd ../../../../../
 
 cd unix/data
-grep -r "Gesquiere2011" unix/
+grep -r "Gesquiere2011" unix/data
 ls
 head n -3 Guesquiere2011_data.csv
 cut -f 1 Guesquiere2011_data.csv | head -n 3
@@ -35,4 +35,4 @@ do
 	mycounts=`bash ../solutions/count_baboons.sh Gesquiere2011_data.csv $id`
 	echo "ID:" $id "counts:" $mycounts
 done
-bash count_all_baboons.sh
+
