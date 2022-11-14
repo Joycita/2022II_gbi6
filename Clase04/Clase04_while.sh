@@ -2,16 +2,14 @@
 
 ##1. How many times were the levels of individuals 3 and 27 recorded?##
 echo "1. How many times were the levels of individuals 3 and 27 recorded?" 
-cd ../../../../../
-grep -r "Gesquiere2011" unix/
-cd unix/data
-ls
-head n -3 ../data/Guesquiere2011_data.csv
-cut -f 1 ../data/Guesquiere2011_data.csv | head -n 3
+cd ../../../../../unix/data
+
+head n -3 Guesquiere2011_data.csv
+cut -f 1 Guesquiere2011_data.csv | head -n 3
 echo "Male ID:3"
-cut -f 1 ../data/Guesquiere2011_data.csv | grep -c -w 3
+cut -f 1 Guesquiere2011_data.csv | grep -c -w 3
 echo "Male ID:27"
-cut -f 1 ../data/Guesquiere2011_data.csv | grep -c -w 27
+cut -f 1 Guesquiere2011_data.csv | grep -c -w 27
 
 
 ##2. Write a script taking as input the file name and the ID of the individual, and returning the number of records for that ID.## 
