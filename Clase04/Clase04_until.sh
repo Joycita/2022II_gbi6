@@ -3,8 +3,7 @@
 echo " 1. Write a script that takes one of these files and determines the number of rows (pollinators) and columns (plants)"
 cd ../../../../../unix/data/Saavedra2013
 ls -x
-
-bash ../scripconcatenado.sh n5.txt
+bash n5.txt
 cat n1.txt | wc -l
 cat n59.txt | wc -l
 
