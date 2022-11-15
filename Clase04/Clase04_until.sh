@@ -31,7 +31,7 @@ done
 echo "Which file has the largest number of rows? Which has the largest number of columns?"
 
 echo "Mayor número de columnas"
-bash  ../../data/Todaslascositas.sh | sort -n -r -k 3 | head -n 1
+bash  ../Todaslascositas.sh | sort -n -r -k 3 | head -n 1
 
 echo "Mayor número de filas"
-bash  ../../data/Todaslascositas.sh | sort -n -r -k 2 | head -n 1
+bash  ../Todaslascositas.sh | sort -n -r -k 2 | head -n 1
